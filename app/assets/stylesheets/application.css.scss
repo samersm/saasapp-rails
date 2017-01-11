@@ -43,11 +43,23 @@ h1, h2, h3 {
     font-weight: 800;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+    border: 2px solid white;
+    &:hover, &:focus {
+    background-color: #16BFFD;
+    }
+}
+
+
 // home page styles
 .home-callout {
     color: white;
     padding-bottom: 100px;
-    padding-top: 100px;
+    padding-top: 30px;
 }
 
 .costume-style {
