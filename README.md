@@ -23,4 +23,8 @@ Things you may want to cover:
 
 * ...
 
-* rails s -b $IP -p $PORT
+* `cd rails-projects/saasapp/`
+
+* `rails s -b $IP -p $PORT`
+
+*  
