@@ -1,4 +1,6 @@
 Rails Commands Cheatsheet
+
+* rails -h (to show all command lines)
     
 * gem install rails
 
@@ -14,8 +16,9 @@ Rails Commands Cheatsheet
 
 * rails s -b $IP -p $PORT
 
-* rails c
-        Hirb.enable
-        Contact.all
+* rails c -h (for show all command lines)
 
+* rails c       -       rails c -s
+        Hirb.enable (related to hirb gem)
+        Contact.all
 
