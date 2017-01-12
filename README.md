@@ -22,9 +22,3 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-
-* `cd rails-projects/saasapp/`
-
-* `rails s -b $IP -p $PORT`
-
-*  
