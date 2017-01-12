@@ -42,7 +42,7 @@
 
 
     <div class="custom-style">
-    <div class="container">
+    <div id="alert-style" class="container">
       <% flash.each do |type, msg| %>
         <%= content_tag :div, msg, class: "alert alert-#{type}" %>
       <% end %>
