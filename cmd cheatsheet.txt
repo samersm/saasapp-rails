@@ -1,0 +1,11 @@
+Rails Commands Cheatsheet
+    
+*   cd rails-projects/saasapp/
+
+*  rails s -b $IP -p $PORT
+
+*   rails c
+        Hirb.enable
+        Contact.all
+
+
