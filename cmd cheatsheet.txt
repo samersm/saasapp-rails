@@ -22,3 +22,17 @@ Rails Commands Cheatsheet
         Hirb.enable (related to hirb gem)
         Contact.all
 
+* git branch
+
+* git checkout -b new_branch
+
+* git status
+
+* git add .
+
+* git commit -m "your commit"
+
+* git push
+
+* heroku domains
+
