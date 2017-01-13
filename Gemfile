@@ -39,6 +39,8 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'font-awesome-sass', '~> 4.7.0'
 # Use hirb for database
 gem 'hirb', '~> 0.7.3'
+# Use devise for user authentication
+gem 'devise', '~> 4.2'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
