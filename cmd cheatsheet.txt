@@ -22,7 +22,7 @@ Rails Commands Cheatsheet
         Hirb.enable (related to hirb gem)
         Contact.all
 
-* git branch
+* git branch (To view the list of your branches)
 
 * git checkout -b new_branch
 
