@@ -26,6 +26,8 @@ Rails Commands Cheatsheet
 
 * rails g controller Users show
 
+* rails g paperclip profile avatar
+
 * git branch (To view the list of your branches)
 
 * git checkout -b new_branch
