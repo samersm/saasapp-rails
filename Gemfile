@@ -45,6 +45,8 @@ gem 'devise', '~> 4.2'
 gem 'stripe', '~> 1.57', '>= 1.57.1'
 # Use figaro for ENV Variables
 gem 'figaro', '~> 1.1', '>= 1.1.1'
+# Use paperclip for image upload
+gem 'paperclip', '~> 4.3', '>= 4.3.6'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record

@@ -11,4 +11,4 @@ User Profiles
 * User profile should have a profile picture.
 * User should be able to view all user profiles.
 
--Create a new branch called (payment_method) after complete the course.
+-(Opitional) Create a new branch called (payment_method) after complete the course.
