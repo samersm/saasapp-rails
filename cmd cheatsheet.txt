@@ -22,6 +22,8 @@ Rails Commands Cheatsheet
         Hirb.enable (related to hirb gem)
         Contact.all
 
+* rails g migrate UserProfiles
+
 * git branch (To view the list of your branches)
 
 * git checkout -b new_branch
