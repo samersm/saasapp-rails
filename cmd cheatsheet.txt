@@ -24,6 +24,8 @@ Rails Commands Cheatsheet
 
 * rails g migrate UserProfiles
 
+* rails g controller Users show
+
 * git branch (To view the list of your branches)
 
 * git checkout -b new_branch
