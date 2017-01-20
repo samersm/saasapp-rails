@@ -12,3 +12,5 @@ User Profiles
 * User should be able to view all user profiles.
 
 -(Opitional) Create a new branch called (payment_method) after complete the course.
+-Add membership_plans branch
+-Fix upload image error
