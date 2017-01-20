@@ -42,3 +42,4 @@ Rails Commands Cheatsheet
 
 * heroku domains
 
+* git push -f heroku master
