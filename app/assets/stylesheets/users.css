@@ -2,6 +2,12 @@
   width: 128px;
   height: 128px; }
 
+.user-index-avatar {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+}
+
 .profile-icons {
     display: inline-block;
     width: 30px;
@@ -25,5 +31,8 @@
 .well.profile-contact-info {
   background-color: #5bc0de;
   border-color: #46b8da; }
-
+  
+.well.white-bg {
+    background-color: white;
+}
 /*# sourceMappingURL=users.css.map */
