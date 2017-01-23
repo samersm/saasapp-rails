@@ -11,4 +11,16 @@ $(document).on('turbolinks:load', function(){
   var submitBtn = $('#form-submit-btn');
   
   Stripe.setPublishableKey( $('meta[name="stripe-key"]').attr('content') );
+  
+  submitBtn.click(function(event){
+    //When user clicks form submit btn
+    //prevent default submission behavior.
+    event.preventDefault();
+    
+    //Get the card inputs
+    var ccNum = $('#card_number').val(),
+        cvcNum = $('#card_code').val(),
+        expMonth = $('#card_month').val(),
+        expYear = $('#card_year').val();
+  });  
 });
