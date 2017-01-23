@@ -16,6 +16,7 @@ $(document).on('turbolinks:load', function(){
     //When user clicks form submit btn
     //prevent default submission behavior.
     event.preventDefault();
+    submitBtn.val("Processing").prop('disabled', true);
     
     //Get the card inputs
     var ccNum = $('#card_number').val(),
@@ -43,8 +44,15 @@ $(document).on('turbolinks:load', function(){
     
     if (error) {
       //don't proceed
+      submitBtn.prop('disabled', false).val("Sign Up");
     } else {
       //Submit the card info to Stripe
+      Stripe.createToken({
+        number: ccNum,
+        cvc: cvcNum,
+        exp_month: expMonth,
+        exp_year: expYear
+      }, stripeResponseHandler);      
     }        
   });  
 });
