@@ -1,3 +1,5 @@
+/* global $, Stripe */
+
 //When user clicks form submit btn
 //prevent default submission behavior.
 //Use Stripe JS library to check for errors.
@@ -54,5 +56,19 @@ $(document).on('turbolinks:load', function(){
         exp_year: expYear
       }, stripeResponseHandler);      
     }        
+    return false;
   });  
+  
+
+  //A function to handle the Stripe response
+  function stripeResponseHandler(status, response) {
+    //Get the token from the response
+    var token = response.id;
+    
+    //Inject the card token in a hidden field
+    theForm.append('<input type="hidden" name="user[stripe_card_token" value"' + token + '" >');
+    
+    //Submit the form
+    theForm.get(0).submit();
+  }  
 });
