@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
   get 'users/show'
 
-  devise_for :users
     root to: 'pages#home'
+    devise_for :users, controllers: { registrations: 'users/registrations' }
     resources :users do
       resource :profile
     end
